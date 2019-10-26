@@ -10,7 +10,10 @@ export default {
 </script>
 <style scoped>
     .sideNav{
-        background-color:#000000;
-        height:200px;
+        background-color:#ffffff;
+        height:90vh;
+        width:272px;
+        border-right: 1px solid #D7D7D7;
+box-sizing: border-box;
     }
 </style>

@@ -1,15 +1,15 @@
 <template>
-<div class="b-container">
-<div class="b-row">
-    <div class="b-col-4">
-     <SideNav/>
-    </div>
-    <div class="b-col-8">
+<div >
+<div class="navContainer ">
+    <div class=" header">
         <Header/>
     </div>
+    <div class=" sideNav">
+     <SideNav/>
+    </div>
+    
   
-</div>
-<div class="b-container">
+
 
 </div>
 </div>
@@ -54,5 +54,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.header{
+    padding:0px !important;
+}
+.sideNav{
+    padding:0px !important;
+}
+.navContainer{
+    
+}
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="b-container nav-bar">
+    <div class="nav-bar">
      
     </div>
 </template>
@@ -15,7 +15,7 @@ export default {
 </script>
 <style scoped>
  .nav-bar{
-     height: 50px;
+     height: 10vh;
      width:100%;
 background: #ffffff;
 border: 1px solid #CBCBCB;
