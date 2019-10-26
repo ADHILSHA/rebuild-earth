@@ -1,10 +1,10 @@
 <template>
 <div >
-<div class="navContainer ">
-    <div class=" header">
+<div class="navContainer flex md:flex-row-reverse flex-wrap">
+    <div class="w-full md:w-3/4 bg-gray-500 p-4 text-center text-gray-200 header">
         <Header/>
     </div>
-    <div class=" sideNav">
+    <div class=" w-full md:w-1/4 bg-gray-400 p-4 text-center text-gray-700 sideNav">
      <SideNav/>
     </div>
     
@@ -54,14 +54,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.header{
-    padding:0px !important;
-}
-.sideNav{
-    padding:0px !important;
-}
-.navContainer{
-    
-}
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
 
 </style>

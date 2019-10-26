@@ -45,6 +45,8 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     }
   },
   plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
     new webpack.DefinePlugin({
       'process.env': require('../config/dev.env')
     }),
